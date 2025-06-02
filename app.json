@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "BatikScan",
+    "slug": "batikscan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5EBDD"
+    },
+    "android": {
+      "package": "com.vitokk29.batikscan",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#F5EBDD"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd5558a6-6287-45c6-99b4-3f927c107afb"
+      }
+    },
+    "owner": "vitokk29"
+  }
+}
