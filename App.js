@@ -62,7 +62,7 @@ export default function App() {
 
     try {
       const res = await axios.post(
-        "http://192.168.0.102:8000/predict",
+        "http://18.214.158.188:8888/predict",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
@@ -85,11 +85,20 @@ export default function App() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>BatikScan</Text>
+      <Text
+        style={[
+          styles.title,
+          { marginTop: image ? 20 : "90%" }
+        ]}>
+        BatikScan
+      </Text>
       <Text style={styles.subtitle}>Klasifikasi Batik Nusantara</Text>
 
       <View style={styles.buttonRow}>
-        <CustomButton title="📤 Upload Gambar" onPress={() => pickImage(false)} />
+        <CustomButton
+          title="📤 Upload Gambar"
+          onPress={() => pickImage(false)}
+        />
         <CustomButton title="📸 Ambil Foto" onPress={() => pickImage(true)} />
       </View>
 
@@ -151,7 +160,6 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: "bold",
     color: "#6E422A",
-    marginTop: 20,
   },
   subtitle: {
     fontSize: 16,
