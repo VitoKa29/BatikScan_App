@@ -11,6 +11,7 @@
       "backgroundColor": "#F5EBDD"
     },
     "android": {
+      "networkSecurityConfig": "./network_security_config.xml",
       "package": "com.vitokk29.batikscan",
       "versionCode": 1,
       "adaptiveIcon": {
@@ -18,6 +19,20 @@
         "backgroundColor": "#F5EBDD"
       }
     },
+    "plugins": [
+      [
+        "expo-network-security-config",
+        {
+          "domains": [
+            {
+              "domain": "18.214.158.188",
+              "cleartext": true,
+              "includeSubdomains": true
+            }
+          ]
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "fd5558a6-6287-45c6-99b4-3f927c107afb"
