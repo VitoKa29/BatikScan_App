@@ -11,7 +11,6 @@
       "backgroundColor": "#F5EBDD"
     },
     "android": {
-      "networkSecurityConfig": "./network_security_config.xml",
       "package": "com.vitokk29.batikscan",
       "versionCode": 1,
       "adaptiveIcon": {
