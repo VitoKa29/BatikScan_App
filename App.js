@@ -71,7 +71,7 @@ export default function App() {
       setResult(res.data);
     } catch (error) {
       console.error(error);
-      Alert.alert("Error", "Gagal mengirim gambar.");
+      Alert.alert("Error", "Gagal mengirim gambar.", error);
     } finally {
       setLoading(false);
     }

@@ -20,15 +20,11 @@
     },
     "plugins": [
       [
-        "expo-network-security-config",
+        "expo-build-properties",
         {
-          "domains": [
-            {
-              "domain": "18.214.158.188",
-              "cleartext": true,
-              "includeSubdomains": true
-            }
-          ]
+          "android": {
+            "usesCleartextTraffic": true
+          }
         }
       ]
     ],
