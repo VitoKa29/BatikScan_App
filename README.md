@@ -12,7 +12,7 @@
 
 ## 📦 Unduh APK
 
-👉 [Klik di sini untuk mengunduh APK versi terbaru](./BatikScan.apk)
+👉 [Klik di sini untuk mengunduh APK versi terbaru](https://github.com/vitokk29/batikscan/releases/download/v1.0.0/BatikScan.apk)
 
 ---
 
