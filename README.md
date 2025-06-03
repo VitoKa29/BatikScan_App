@@ -1,6 +1,8 @@
 # 📱 BatikScan - Aplikasi Klasifikasi Batik Nusantara
 
-![BatikScan Preview](./screenshot.jpeg)
+<p align="center">
+  <img src="screenshot.jpeg" alt="BatikScan Preview" width="400"/>
+</p>
 
 **BatikScan** adalah aplikasi mobile berbasis **React Native (Expo)** yang memungkinkan pengguna mengunggah atau memotret gambar batik dan langsung mendapatkan hasil klasifikasi batik Nusantara menggunakan teknologi machine learning.
 
